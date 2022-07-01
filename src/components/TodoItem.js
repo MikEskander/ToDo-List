@@ -25,7 +25,6 @@ function TodoItem(props) {
         {props.content}
       </p>
       <button className="complete-Buttom" onClick={handleClickComplete}>
-        {" "}
         ✔
       </button>
       <button className="delete-Buttom" onClick={handleClickDelete}>
